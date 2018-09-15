@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b5c9213a-8c40-4638-8f61-4f99e892f27b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>C_S_GamePy.py</StartupFile>
+    <StartupFile>csgpy_client.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="csgpy_client.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csgpy_server.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="C_S_GamePy.py" />
   </ItemGroup>
   <ItemGroup>
